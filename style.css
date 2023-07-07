@@ -1,0 +1,84 @@
+header {
+    background-color: rgb(44, 157, 233);
+    height: 90px;
+    position: top;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    color: aliceblue;
+    
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 60px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 320px;
+}
+    
+.img {
+    border: 10px solid red;
+    height: 340px;
+    width: 260px;
+    display: block;
+    align-items: right;
+    position:absolute;
+    left: 77%;
+    bottom: 12%;
+} 
+
+side-bar {
+    border-right: auto;
+    grid-template-areas:auto;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    height:150px;
+    width: 300px;
+}
+h2 {
+    border: 10px solid rgb(0, 174, 255);
+    right: 70%;
+    bottom: 50%;
+}
+
+footer {
+    background-color: rgb(255, 0, 221);
+    grid-template-areas: "rodapé";
+
+}
+
+.cutecat {
+    height: 75px;
+    width:75px;
+    top:5%;
+    right: 5%;
+    border-radius: 50%;
+    border:3px solid black
+}
+
+footer {
+    background-color: rgb(25, 33, 33);
+    height: 150px;
+}
+
+.img2 {
+    height: 40px;
+    width: 40px;
+    border-radius: 25%;
+}
+
+main {
+    height: 375px;
+}
+
+h3 {
+    color: white;
+    bottom: 140px;
+    left: 45px;
+
+}
