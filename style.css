@@ -1,32 +1,33 @@
 header {
     background-color: rgb(44, 157, 233);
-    height: 90px;
+    height: 7vw;
     position: top;
-    padding: 30px;
+    padding: 1vw;
     display: flex;
     align-items: center;
     align-content: center;
     color: aliceblue;
-    border-radius:5px;
+    border-radius:0.5vw;
 }
 
 h1 {
     color: aliceblue;
-    font-size: 60px;
+    font-size: 4vw;
     font-family: sans-serif;
     text-align: center;
-    margin-left: 320px;
+    margin-left: 29vw;
 }
     
 .img {
-    border: 10px solid red;
-    height: 340px;
-    width: 260px;
+    border: 0.5vw solid red;
+    border-radius: 0.5vw;
+    height: 25vw;
+    width: 20vw;
     display: block;
     align-items: right;
     position:absolute;
-    left: 77%;
-    bottom: 12%;
+    left: 77vw;
+    bottom: 11vw;
 } 
 
 side-bar {
@@ -37,13 +38,15 @@ side-bar {
 }
 
 main{
-    height:150px;
-    width: 300px;
+    height:8vw;
+    width: 22vw;
 }
+
 h2 {
-    border: 10px solid rgb(0, 174, 255);
-    right: 70%;
-    bottom: 50%;
+    border: 0.5vw solid rgb(0, 174, 255);
+    border-radius: 0.5vw;
+    right: 7vw;
+    bottom: 5vw;
 }
 
 footer {
@@ -67,15 +70,15 @@ footer {
 }
 
 .img2 {
-    height: 50px;
-    width: 50px;
-    border-radius: 25%;
-    margin-left:10px;
-    margin-top:20px;
+    height: 30vw;
+    width: 30vw;
+    border-radius: 5vw;
+    margin-left: 7vw;
+    margin-top:14vw;
 }
 
 main {
-    height: 375px;
+    height: 27vw;
 }
 
 h3 {
@@ -84,9 +87,8 @@ h3 {
 
 }
 
-botao{
-    color: rgb (255, 0, 0);
-    transform:scale(1.5);
-    display:flex;
-    margin:auto;
+.contatos{
+    letter-spacing: 5vw;
+    text-align: center;
+    padding-top: 5vw;
 }
